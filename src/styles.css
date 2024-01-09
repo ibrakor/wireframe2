@@ -1,0 +1,49 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    background-color: #202126;
+  }
+  .cabecera {
+    background-color: #ddd;
+  }
+  .cabecera-icono {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .hamburguesa {
+    width: 40px;
+    height: 30px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .hamburguesa span {
+    height: 4px;
+    background-color: #333;
+  }
+  .widgets-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .widgets-list .widget {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #373737;
+    color: #fff;
+    height: 200px;
+    flex: 0 0 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .pie {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ddd;
+  }
+  
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
